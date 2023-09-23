@@ -1,0 +1,52 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<h1 class="text-center">Bienvenido</h1>
+
+<p class="margen-left margen-left-top">Usuario: {{usuario}}</p>
+
+<h4 class="text-center">Información adicional</h4>
+
+<ion-list >
+  <ion-item lines="none">
+    <p class="space-titulo" slot="start">Nombre</p>
+    <ion-input
+    type="Ingrese nombre"
+    fill="solid"
+    label="Ingrese nombre"
+    labelPlacement="floating"
+    email
+    ></ion-input>
+  </ion-item>
+  </ion-list>
+  <ion-list >
+  <ion-item lines="none">
+    <p class="space-titulo" slot="start">Apellido</p>
+    <ion-input
+    type="Ingrese nombre"
+    fill="solid"
+    label="Ingrese Apellido"
+    labelPlacement="floating"
+    email
+  ></ion-input>
+  </ion-item>
+  <ion-item lines="none">
+    <p class="space-titulo" slot="start">Nivel educacional</p>
+    <ion-input
+    type="Ingrese nombre"
+    fill="solid"
+    label="Ingrese Apellido"
+    labelPlacement="floating"
+    email
+  ></ion-input>
+  </ion-item>
+
+</ion-list>
+</ion-content>
