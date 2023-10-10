@@ -14,39 +14,45 @@
 
 <h4 class="text-center">Información adicional</h4>
 
-<ion-list >
-  <ion-item lines="none">
-    <p class="space-titulo" slot="start">Nombre</p>
-    <ion-input
-    type="Ingrese nombre"
-    fill="solid"
-    label="Ingrese nombre"
-    labelPlacement="floating"
-    email
-    ></ion-input>
-  </ion-item>
-  </ion-list>
   <ion-list >
-  <ion-item lines="none">
-    <p class="space-titulo" slot="start">Apellido</p>
-    <ion-input
-    type="Ingrese nombre"
-    fill="solid"
-    label="Ingrese Apellido"
-    labelPlacement="floating"
-    email
-  ></ion-input>
-  </ion-item>
-  <ion-item lines="none">
-    <p class="space-titulo" slot="start">Nivel educacional</p>
-    <ion-input
-    type="Ingrese nombre"
-    fill="solid"
-    label="Ingrese Apellido"
-    labelPlacement="floating"
-    email
-  ></ion-input>
-  </ion-item>
-
-</ion-list>
+    <ion-item lines="none">
+      <p class="space-titulo" slot="start">Nombre</p>
+      <ion-input
+      type="Ingrese nombre"
+      fill="solid"
+      label="Ingrese nombre"
+      labelPlacement="floating"
+      email
+      ></ion-input>
+    </ion-item>
+    </ion-list>
+    <ion-list >
+    <ion-item lines="none">
+      <p class="space-titulo" slot="start">Apellido</p>
+      <ion-input
+      type="Ingrese nombre"
+      fill="solid"
+      label="Ingrese Apellido"
+      labelPlacement="floating"
+      email
+    ></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <p class="space-titulo" slot="start">Nivel educacional</p>
+      <ion-select placeholder="Nivel educación">
+        <ion-select-option value="apples">Nivel superior</ion-select-option>
+        <ion-select-option value="oranges">Nivel medio</ion-select-option>
+        <ion-select-option value="bananas">Nivel básico</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item lines="none">
+      <p class="space-titulo" slot="start">Fecha nacimiento</p>
+      <ion-input type="date"></ion-input>
+      <ion-icon item-end name="calendar"></ion-icon>
+    </ion-item>
+  </ion-list>
+  <div class="botones">
+    <ion-button color="light">Limpiar</ion-button>
+    <ion-button color="light">Mostrar</ion-button>
+  </div>
 </ion-content>
